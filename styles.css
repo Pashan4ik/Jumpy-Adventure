@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+canvas {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 700px;
+    height: 700px;
+    background-image: url('img/background.png');
+    border: 5px solid rgb(136, 136, 136);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 700px 1fr;
+   
+}
